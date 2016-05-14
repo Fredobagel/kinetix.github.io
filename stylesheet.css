@@ -1,0 +1,105 @@
+#heading {
+	position: fixed;
+}
+
+#menuBar {
+	position:fixed;
+	z-index: 2;
+}
+#menu {
+    padding: 0;
+	text-align:center;
+	right: 0;
+	position: fixed;
+	
+}
+
+
+li {
+    display: inline;
+		
+}
+
+ul#menu li a {
+    background: linear-gradient(to right, red, #990000);
+    color: white;
+    padding: 10px 50px;
+    text-decoration: none;
+    border-radius: 4px 50px 0 0;
+	
+	-webkit-transition: background 4s;
+	transition: background 4s;
+
+}
+
+ul#menu li a:hover {
+	background: linear-gradient(to right, yellow, #990000);
+}
+#circleNav {
+	padding: 0;
+	text-align : center;
+	
+}
+
+
+.buttonLeft,.buttonRight {
+	position: absolute;
+	width: auto;
+	top:75px;
+	padding: 16px;
+	color: gray;
+	font-size: 70px;
+	font-weight: bold;
+}
+
+.buttonRight{
+	
+	right: 0;
+}
+
+.buttonRight:hover{
+	color: red;
+}
+
+.buttonLeft {
+	
+	left: 0;
+}
+
+.buttonLeft:hover {
+	color:red;
+}
+
+#slideShow {
+	
+	position: relative;
+	margin: auto;
+	height: 300px;
+	overflow: hidden;
+	background-color: white;
+}
+
+.mySlides {
+	margin-top: -600px;
+	width: 2200px;
+}
+
+body {
+	position: relative;
+	background-image: url("images/Race-track1.jpg");
+}
+a.boxclose{
+    float:right;
+    width:26px;
+    height:26px;
+    top left;
+    width:20px;
+    height 10px;
+    background-color: #c0c0c0;
+    border: 1px solid black;
+    cursor:pointer;
+    color: white;
+    border-radius: 40px;
+    padding-left: 10px;
+    padding-top: 4px;
+}
